@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Scientist Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0 0;
+        }
+        nav {
+            background: #34495e;
+            padding: 0.5rem 2rem;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 1rem auto;
+            overflow: hidden;
+            animation: bounce 2s infinite;
+        }
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        .project {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .project h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .project p {
+            font-size: 1rem;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+        .skill {
+            background: #1abc9c;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 1rem;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        footer a {
+            color: #1abc9c;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Data Scientist | Machine Learning Enthusiast | Storyteller Through Data</p>
+        <div class="profile-image">
+            <img src="your-image.jpg" alt="Your Profile Picture">
+        </div>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am a data scientist with expertise in uncovering insights and creating impactful solutions through data analysis and machine learning. I am passionate about solving challenging problems and helping businesses make data-driven decisions.</p>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project Title 1</h3>
+                <p>Brief description of the project, tools used, and the outcome.</p>
+            </div>
+            <div class="project">
+                <h3>Project Title 2</h3>
+                <p>Brief description of the project, tools used, and the outcome.</p>
+            </div>
+            <div class="project">
+                <h3>Project Title 3</h3>
+                <p>Brief description of the project, tools used, and the outcome.</p>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">Python</div>
+            <div class="skill">Machine Learning</div>
+            <div class="skill">Data Visualization</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Deep Learning</div>
+            <div class="skill">TensorFlow</div>
+            <div class="skill">Pandas</div>
+            <div class="skill">Matplotlib</div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to collaborate or have any questions, feel free to reach out!</p>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+        <p>GitHub: <a href="https://github.com/yourprofile" target="_blank">github.com/yourprofile</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Your Name. Designed with ❤️.</p>
+    </footer>
+</body>
+</html>
